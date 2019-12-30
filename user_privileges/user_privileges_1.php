@@ -1,0 +1,9 @@
+<?php
+
+
+//This is the access privilege file
+$is_admin=true;
+
+$user_info=array('user_name'=>'admin','is_admin'=>'on','user_password'=>'$1$ad000000$Cl6oBc98ACrdQPgzMxP/v.','confirm_password'=>'$1$ad000000$nYTnfhTZRmUP.wQT9y1AE.','first_name'=>'Th&agrave;nh','last_name'=>'Dương','roleid'=>'H2','email1'=>'duongdt52@wru.vn','status'=>'Active','activity_view'=>'This Week','lead_view'=>'Today','hour_format'=>'12','end_hour'=>'23:00','start_hour'=>'00:00','is_owner'=>'1','title'=>'','phone_work'=>'','department'=>'','phone_mobile'=>'0979889156','reports_to_id'=>'','phone_other'=>'','email2'=>'dothanhduongpro@gmail.com','phone_fax'=>'','secondaryemail'=>'','phone_home'=>'','date_format'=>'dd-mm-yyyy','signature'=>'','description'=>'','address_street'=>'300 Đ&ecirc; La Th&agrave;nh, Đống Đa, H&agrave; Nội','address_city'=>'H&agrave; Nội','address_state'=>'Đống Đa','address_postalcode'=>'','address_country'=>'Việt Nam','accesskey'=>'X9uDrqp5ithrNwGh','time_zone'=>'Asia/Bangkok','currency_id'=>'1','currency_grouping_pattern'=>'123,456,789','currency_decimal_separator'=>'.','currency_grouping_separator'=>',','currency_symbol_placement'=>'$1.0','imagename'=>'picturemessage_of33p03z.vgr.png','internal_mailer'=>'1','theme'=>'alphagrey','language'=>'vn_vn','reminder_interval'=>'1 Minute','phone_crm_extension'=>'','no_of_currency_decimals'=>'2','truncate_trailing_zeros'=>'1','dayoftheweek'=>'Sunday','callduration'=>'5','othereventduration'=>'5','calendarsharedtype'=>'public','default_record_view'=>'Summary','leftpanelhide'=>'0','rowheight'=>'','defaulteventstatus'=>'Planned','defaultactivitytype'=>'Call','hidecompletedevents'=>'0','defaultcalendarview'=>'MyCalendar','currency_name'=>'Vietnam, Dong','currency_code'=>'VND','currency_symbol'=>'₫','conv_rate'=>'1.00000','record_id'=>'','record_module'=>'','id'=>'1');
+
+?>

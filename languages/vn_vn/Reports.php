@@ -1,0 +1,242 @@
+<?php
+/*+***********************************************************************************
+ * The contents of this file are subject to the vtiger CRM Public License Version 1.0
+ * ("License"); You may not use this file except in compliance with the License
+ * The Original Code is:  vtiger CRM Open Source
+ * The Initial Developer of the Original Code is vtiger.
+ * Portions created by vtiger are Copyright (C) vtiger.
+ * All Rights Reserved.
+ *************************************************************************************/
+$languageStrings = array(
+	'Reports'=>'Báo cáo',
+	'SINGLE_Reports' => 'Báo cáo',
+
+	// Basic Strings
+	'LBL_FOLDER_NOT_EMPTY' => 'Folder is not empty',
+	'LBL_MOVE_REPORT' => 'Di chuyển báo cáo',
+	'LBL_CUSTOMIZE' => 'Tùy chỉnh',
+	'LBL_REPORT_EXPORT_EXCEL' => 'Xuất Excel',
+	'LBL_REPORT_PRINT' => 'In',
+	'LBL_CREATING_REPORT' => 'Tạo báo cáo',
+	'LBL_EDITING_REPORT' => 'Sửa báo cáo',
+	'LBL_REPORT_DETAILS' => 'Chi tiết báo cáo',
+	'LBL_SELECT_COLUMNS' => 'Chọn cột',
+	'LBL_FILTERS' => 'Tạo bộ lọc',
+	'Select Chart'=> 'Chọn biểu đồ',
+	'LBL_FOLDERS' => 'Thư mực',
+	'LBL_ADD_NEW_FOLDER' => 'Thêm mới thư mục',
+	'LBL_FOLDER_NAME' => 'Tên thư mục',
+	'LBL_FOLDER_DESCRIPTION' => 'Mô tả thư mục',
+	'LBL_WRITE_YOUR_DESCRIPTION_HERE' => 'Nhập mô tả',
+	'LBL_DUPLICATES_EXIST' => 'Tên báo cáo đã tồn tại',
+	'LBL_FOLDERS_LIST' => 'Danh sách thư mục',
+	'LBL_DENIED_REPORTS' => 'Báo cáo bị từ chối',
+	'LBL_NO_OF_RECORDS' => 'Tổng số hồ sơ : ',
+    'LBL_MORE_RECORDS_TXT'=>'Chỉ có 500 bản ghi trong văn bản của họ. Vui lòng xuất hiện và xem trên mạng',
+	'LBL_SCHEDULE_REPORTS' => 'Lập lịch Báo cáo',
+	'LBL_AT_TIME' => 'Tại thời điểm',
+
+	'LBL_DAILY' => 'Hàng ngày',
+	'LBL_WEEKLY' => 'Hàng tuần',
+	'LBL_MONTHLY_BY_DATE' => 'Hàng tháng theo ngày',
+	'LBL_YEARLY' => 'Hàng năm',
+	'LBL_SPECIFIC_DATE' => 'Vào ngày cụ thể',
+	'LBL_CHOOSE_DATE' => 'Chọn ngày',
+	'LBL_ON_THESE_DAYS' => 'Vào những ngày này',
+	'LBL_SELECT_MONTH_AND_DAY' => 'Chọn tháng và ngày',
+	'LBL_SELECTED_DATES' => 'Ngày đã chọn',
+	'LBL_EXCEEDING_MAXIMUM_LIMIT' => 'Đã vượt quá giới hạn tối đa',
+	'LBL_NEXT_TRIGGER_TIME' => 'Thời gian kích hoạt tiếp theo vào',
+	'LBL_RUN_REPORT' =>'Chạy báo cáo',
+	'LBL_SELECT_RECIEPIENTS' => 'Chọn người nhận',
+	'LBL_SPECIFIC_EMAIL_ADDRESS' => 'Gửi tới mail cụ thể',
+	'LBL_SAME_LEVEL_ROLES' => 'Same Level Roles',
+	'LBL_SUBORDINATE_ROLES' => 'Subordinate Roles',
+	//ListView Actions
+	'LBL_ADD_RECORD' => 'THÊM',
+	'LBL_ADD_FOLDER' => 'Thêm thư mục',
+	'LBL_REPORT_DELETE_DENIED' => 'Quyền bị từ chối xóa báo cáo',
+
+	//Folder Actions
+	'LBL_FOLDER_NOT_EMPTY' => 'Folder is not empty',
+	'LBL_FOLDER_CAN_NOT_BE_DELETED' => 'This folder can not be deleted',
+
+	//Mass Actions
+	'LBL_REPORTS_LIST' => 'Danh sách báo cáo',
+
+	//Step1 Strings
+	'Primary Module'=>'Module chính',
+	'LBL_REPORT_NAME' => 'Tên báo cáo',
+	'LBL_REPORT_FOLDER' => 'Thư mục báo cáo',
+	'LBL_DESCRIPTION' => 'Mô tả báo cáo',
+	'PRIMARY_MODULE' => 'Module chính',
+	'LBL_SELECT_RELATED_MODULES' => 'Chọn Modules liên quan',
+	'LBL_MAX' => 'Tối đa',
+	'LBL_NEXT' => 'Tiếp theo',
+	'LBL_REPORTS' => 'Danh sách báo cáo',
+	'LBL_SELECT_RELATED_MODULES' => 'Chọn Modules liên quan',
+
+	//Step2 Strings
+	'LBL_GROUP_BY' => 'Nhóm bởi',
+	'LBL_SORT_ORDER' => 'Thứ tự sắp xếp',
+	'LBL_ASCENDING' => 'Tăng dần',
+	'LBL_DESCENDING' => 'Giảm dần',
+	'LBL_CALCULATIONS' =>'Tính toán',
+	'LBL_COLUMNS' => 'Cột',
+	'LBL_SUM_VALUE' => 'Tổng',
+	'LBL_AVERAGE' => 'Trung bình',
+	'LBL_LOWEST_VALUE' => 'Giá trị thấp nhất',
+	'LBL_HIGHEST_VALUE' => 'Giá trị cao nhất',
+
+	//Step3 Strings
+	'LBL_GENERATE_REPORT' => 'Lưu & tạo báo cáo',
+
+	//DetailView
+	'LBL_SUM' => 'Tổng',
+	'LBL_AVG' => 'Trung bình',
+	'LBL_MAX' => 'Tôi đa',
+	'LBL_MIN' => 'Thấp nhất',
+	'LBL_FIELD_NAMES' => 'Tên trường',
+	'LBL_REPORT_CSV' => 'Xuất CSV',
+	'LBL_VIEW_DETAILS' => 'Xem chi tiết',
+	'LBL_GENERATE_NOW' => 'Tạo ngay bây giờ',
+
+	//List View Headers
+	'Report Name' => 'Tên báo cáo',
+
+	//Default Folders Names, Report Names and Description
+	'Account and Contact Reports'=>'Báo cáo Tổ chức và Liên hệ',
+	'Lead Reports'=>'Báo cáo Khách hàng',
+	'Potential Reports'=>'Báo cáo Cơ hội',
+	'Activity Reports'=>'Báo cáo hoạt động',
+	'HelpDesk Reports'=>'Báo cáo Nhãn, vé',
+	'Product Reports'=>'Báo Cáo Sản phẩm',
+	'Quote Reports'=>'Báo cáo Giá',
+	'PurchaseOrder Reports'=>'Báo cáo Đơn đặt hàng',
+	'SalesOrder Reports'=>'Báo cáo Đơn hàng', //Added for SO
+	'Invoice Reports'=>'Báo cáo Hóa đơn',
+	'Campaign Reports'=>'Báo cáo Chiến dịch', //Added for Campaigns
+	'Contacts by Accounts'=>'Contacts by Organizations',
+	'Contacts without Accounts'=>'Contacts without Organizations',
+	'Contacts by Potentials'=>'Contacts by Opportunities',
+	'Contacts related to Accounts'=>'Contacts related to Organizations',
+	'Contacts not related to Accounts'=>'Contacts not related to Organizations',
+	'Contacts related to Potentials'=>'Contacts related to Opportunities',
+	'Lead by Source'=>'Lead by Source',
+	'Lead Status Report'=>'Lead Status Report',
+	'Potential Pipeline'=>'Opportunity Pipeline',
+	'Closed Potentials'=>'Closed Opportunities',
+	'Potential that have Won'=>'Won Opportunities',
+	'Tickets by Products'=>'Tickets by Products',
+	'Tickets by Priority'=>'Tickets by Priority',
+	'Open Tickets'=>'Open Tickets',
+	'Tickets related to Products'=>'Tickets related to Products',
+	'Tickets that are Open'=>'Open Tickets',
+	'Product Details'=>'Product Details',
+	'Products by Contacts'=>'Products by Contacts',
+	'Product Detailed Report'=>'Product Detailed Report',
+	'Products related to Contacts'=>'Products related to Contacts',
+	'Open Quotes'=>'Open Quotes',
+	'Quotes Detailed Report'=>'Quotes Detailed Report',
+	'Quotes that are Open'=>'Open Quotes',
+	'PurchaseOrder by Contacts'=>'Purchase Order by Contacts',
+	'PurchaseOrder Detailed Report'=>'Purchase Order Detailed Report',
+	'PurchaseOrder related to Contacts'=>'Purchase Order Related to Contacts',
+	'Invoice Detailed Report'=>'Invoice Detailed Report',
+	'Last Month Activities'=>'Last Month Activities',
+	'This Month Activities'=>'This Month Activities',
+	'Campaign Expectations and Actuals'=>'Campaign Expectations and Actuals', //Added for Campaigns
+	'SalesOrder Detailed Report'=>'Sales Order Detailed Report', //Added for SO
+
+	'Email Reports'=>'Báo cáo Email',
+	'Contacts Email Report'=>'Báo cáo Email Liên hệ',
+	'Accounts Email Report'=>'Báo cáo Email Tổ chức',
+	'Leads Email Report'=>'Báo cáo Email Khách hàng',
+	'Vendors Email Report'=>'Báo cáo Email Nhà cung cấp',
+
+	'Emails sent to Contacts' => 'Emails sent to Contacts',
+	'Emails sent to Organizations' => 'Emails sent to Organizations',
+	'Emails sent to Leads' => 'Emails sent to Leads',
+	'Emails sent to Vendors' => 'Emails sent to Vendors',
+
+	'LBL_PRINT_REPORT' => 'Print Report',
+	'LBL_RECORDS' => 'Records',
+	'LBL_LIMIT_EXCEEDED' => 'Only 1000 + records are displayed. Use CSV or Excel Export to see all the records',
+	'LBL_TOP' => 'Top',
+	'LBL_ALL_REPORTS' => 'Tất cả báo cáo',
+	'LBL_CALCULATION_CONVERSION_MESSAGE' => 'Calculation are based on the My Preferences currency of your CRM',
+
+    //Summary/Pivot Reports
+    'LBL_CREATING_PIVOT_REPORT' => 'Create Pivot Report',
+    'LBL_EDITING_PIVOT_REPORT' => 'Edit Pivot Report',
+    'LBL_SELECT_PIVOT_FIELDS' => 'Select Pivot Fields',
+    'LBL_SELECT_ROWS' => 'Select Rows ',
+    'LBL_SELECT_DATA_FIELDS' => 'Select Data Fields ',
+    'LBL_ADD_ROWS' => 'Add Rows',
+    'LBL_ADD_COLUMNS' => 'Add Columns',
+    'LBL_ADD_DATA_FIELDS' => 'Add Data Fields',
+    'LBL_PIVOT_FIELDS' => 'Selected Pivot Fields',
+    'LBL_RECORD_COUNT' => 'Số lượng hồ sơ',
+    'LBL_SELECT_PIVOT_FIELDS_WARNING' => 'Warning : Please select at least one Row field, Column field and Data field.',
+    'LBL_PIVOT_DATA_FIELDS_WARNING' => 'Warning : In Data Column - aggregation functions(sum,avg,min and max) should not repeat.',
+    'LBL_MODIFY_CONDITIONS' => 'Modify Conditions',
+    'LBL_PIVOT_PREVIEW_EX' => 'Pivot Report Preview(Example)',
+
+	//charts labels
+	'LBL_SELECT_CHART_TYPE' => 'Chọn loại biểu đồ',
+	'LBL_CLICK_THROUGH_NOT_AVAILABLE' => 'Click through not available as you have selected more than one module',
+	'LBL_TOTAL_SUM_OF' => 'Tổng cộng của %s',
+	'LBL_AVG_OF' => 'Trung bình của %s',
+	'LBL_MIN_OF' => 'Tối thiểu của %s',
+	'LBL_MAX_OF' => 'Tối đa của %s',
+	'LBL_RECORD_COUNT' => 'Record Count',
+	'LBL_PIE_CHART' => 'Biểu đồ Tròn',
+	'LBL_VERTICAL_BAR_CHART' => 'Biểu đồ thanh dọc',
+	'LBL_HORIZONTAL_BAR_CHART' => 'Biểu đồ thanh ngang',
+	'LBL_LINE_CHART' => 'Biểu đồ đường',
+	'LBL_SELECT_CHART' => 'Chọn biểu đồ',
+	'LBL_CREATING_CHART_REPORT' => 'Tạo biểu đồ báo cáo',
+	'LBL_EDITING_CHART_REPORT' => 'Chỉnh sửa biểu đồ báo cáo',
+	'LBL_GENERATE_CHART' => 'Tạo biểu đồ',
+	'LBL_SELECT_GROUP_BY_FIELD' => 'Chọn nhóm trường',
+	'LBL_SELECT_DATA_FIELD' => 'Chọn trường dữ liệu',
+	'LBL_MODIFY_CONDITION' => 'Sửa đổi điều kiện',
+	'LBL_PLEASE_SELECT_ATLEAST_ONE_GROUP_FIELD_AND_DATA_FIELD' => 'Vui lòng chọn ít nhất một Nhóm lĩnh vực và một trường dữ liệu.',
+	'LBL_FOR_BAR_GRAPH_AND_LINE_GRAPH_SELECT_3_MAX_DATA_FIELDS' => 'Cho thanh và đường biểu đồ, bạn có thể chọn tối đa 3 trường dữ liệu.',
+	'LBL_DETAIL_REPORT' => 'Lập Báo cáo',
+	'LBL_PIVOT_REPORT' => 'Pivot Report',
+	'LBL_CHARTS' => 'Lập biểu đồ',
+    //Schedule Reports - Mail Content
+    'LBL_AUTO_GENERATED_REPORT_EMAIL' => 'This is an auto-generated email sent on behalf of a scheduled report.',
+    'LBL_PIN_CHART_TO_DASHBOARD' => 'Pin Chart To DashBoard',
+    'LBL_FILE_FORMAT' => 'Định dạng FIle',
+    
+    'Report Type' => 'Loại báo cáo',
+    'tabular' => 'Chi tiết',
+    'summary' => 'Bảng',
+    'pivot' => 'Pivot',
+    'chart' => 'Biểu đồ',
+
+    'LBL_REPORTS_MOVED_SUCCESSFULLY'=>'Reports Moved Successfully.',
+    'LBL_SAME_SOURCE_AND_TARGET_FOLDER'=>'Target Folder Is Same As Source Folder.',
+	'LBL_SHARE_REPORT' => 'Chia sẻ bản báo cáo',
+	'LBL_SHARED_REPORTS' => 'Shared With Me',
+	'LBL_PINNED' => 'Pinned',
+	'LBL_UNPINNED' => 'UnPinned',
+	'LBL_SEARCH_FOR_FOLDERS' => 'Tìm kiếm thư mục',
+	'LBL_CHART_REPORT' => 'Báo cáo Biểu đồ',
+	'LBL_UNPIN_CHART_FROM_DASHBOARD' => 'Unpin chart from dashboard',
+	'LBL_REPORTS_DELETED_SUCCESSFULLY' => 'Reports Deleted Successfully',
+);
+$jsLanguageStrings = array(
+	'JS_DUPLICATE_RECORD' => 'Duplicate Report',
+	'JS_CALCULATION_LINE_ITEM_FIELDS_SELECTION_LIMITATION' => 'Limitation: Line Item fields(List Price, Discount & Quantity) can only be used when other calculation fields are not selected.',
+	'JS_NO_CHART_DATA_AVAILABLE' => 'Không có dữ liệu, xin vui lòng kiểm tra các lĩnh vực được lựa chọn',
+    'JS_CHART_PINNED_TO_DASHBOARD' => 'Chart Pinned To DashBoard',
+    'JS_CHART_ALREADY_PINNED_TO_DASHBOARD' => 'Chart Already Pinned To DashBoard',
+	'JS_MOVE_REPORTS'=>'Move Reports',
+    'JS_SCHEDULED_DATE_TIME_ERROR' => 'Scheduled date and time should be greater than current date and time',
+	'JSLBL_PIN_CHART_TO_DASHBOARD' => 'Pin Chart To DashBoard',
+	'JSLBL_UNPIN_CHART_FROM_DASHBOARD' => 'Unpin chart from dashboard',
+	'JS_CHART_REMOVED_FROM_DASHBOARD' => 'Chart removed from dashboard',
+);
